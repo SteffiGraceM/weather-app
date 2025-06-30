@@ -1,0 +1,48 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1a0404;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+}
+
+#result {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  color: #0e0505;
+  transition: all 0.3s ease;
+}
+
+#result:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+input.form-control {
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  background: #fdb225;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background: #b8e7e3;
+  color: #333;
+}
